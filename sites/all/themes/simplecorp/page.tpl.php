@@ -132,7 +132,7 @@
                                         <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img1.jpg" alt="" /></a>
                                     </div>
                                     <div class="flex-caption">
-                                        <h3>Quisque eu nibh enim, ac aliquam nunc.</h3>
+                                        <h3>« Boire peu pour boire longtemps. » (Guy Bedos)</h3>
                                     </div>
                                 </li>
     
@@ -142,7 +142,7 @@
                                         <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img2.jpg" alt="" /></a>
                                     </div>                        
                                     <div class="flex-caption">
-                                        <h3>Quisque eu nibh enim, ac aliquam nunc.</h3>
+                                        <h3>“Jamais homme noble ne hait le bon vin.” (François Rabelais)</h3>
                                     </div>
                                 </li>
     
@@ -152,10 +152,33 @@
                                         <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img3.jpg" alt="" /></a>
                                     </div>
                                     <div class="flex-caption">
-                                        <h3>Quisque eu nibh enim, ac aliquam nunc.</h3>
+                                        <h3>“Une journée sans vin est une journée sans soleil.” (Proverbe provençal)</h3>
                                     </div>
                                 </li>
     
+    
+                                <!-- quatrième-slide -->
+                                <li class="slider-item">
+                                    <div class="slider-image">                            
+                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img4.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="flex-caption">
+                                        <h3>« Boire du vin, c’est boire du génie. » (Charles Baudelaire)</h3>
+                                    </div>
+                                </li>
+
+    
+                                <!-- cinquième-slide -->
+                                <li class="slider-item">
+                                    <div class="slider-image">                            
+                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img5.jpg" alt="" /></a>
+                                    </div>
+                                    <div class="flex-caption">
+                                        <h3>“Le vin est le lait des vieillards.” (Platon)</h3>
+                                    </div>
+                                </li>
+    
+								
                             </ul>
                         </div>
                     </div>
@@ -579,8 +602,8 @@
                     <?php endif; ?>
                     
                     <div class="credits">
-                    Ported to Drupal by <a href="http://www.drupalizing.com">Drupalizing</a> a Project of <a href="http://www.morethanthemes.com">More than Themes</a>. Designed by <a href="http://www.s5themes.com/">Site5 WordPress Themes</a>. 
-                    </div>
+                    Ce site est crée par <a href="http://www.narbodev.com">Narbonne Développements</a> 
+					</div>
 
                 </div>
             </div>

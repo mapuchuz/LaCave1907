@@ -85,7 +85,7 @@ a h1:hover,a h2:hover,a h3:hover,a h4:hover,a h5:hover,a h6:hover { color: #9dce
 
 .text-align-right { text-align: right; }
 
-.img-align-left { margin: 0px 10px 10px 0; float: left; }
+.img-align-left { margin: 0px 10px 10px 0; float: left; border: 3px solid red;}
 
 img { max-width: 100%; height: auto; 
 -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -1257,7 +1257,7 @@ ul.buttons li { display: list;  margin: 25px 0; }
 
 ul.buttons-huge li { display: list; margin: 45px 0; } 
 
-.inner-page-intro { width: 100%; height: auto; float: left; padding: 0px 0; margin-bottom: 30px; border-bottom: 1pt solid #e1e1e1; }
+.inner-page-intro { width: 100%; height: auto; float: left; padding: 0px 0; margin-bottom: 30px; border-bottom: 10pt solid #e1e1e1; }
 
 .add-widget { background: url("../images/shortcodes/lists/addlist.png")left center no-repeat; background: url("../images/plus.png") left center no-repeat;
 padding: 2px 2px 2px 13px; font-weight: bold; display: block; margin-top: 20px; }
