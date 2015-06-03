@@ -135,16 +135,17 @@
                                         <h3>« Boire peu pour boire longtemps. » (Guy Bedos)</h3>
                                     </div>
                                 </li>
-    
-                                <!-- second-slide -->
+
+                                <!-- first-slide -->
                                 <li class="slider-item">
-                                    <div class="slider-image">                        
-                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img2.jpg" alt="" /></a>
-                                    </div>                        
+                                    <div class="slider-image">
+                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img1.jpg" alt="" /></a>
+                                    </div>
                                     <div class="flex-caption">
-                                        <h3>“Jamais homme noble ne hait le bon vin.” (François Rabelais)</h3>
+                                        <h3>« Boire peu pour boire longtemps. » (Guy Bedos)</h3>
                                     </div>
                                 </li>
+                                
     
                                 <!-- third-slide -->
                                 <li class="slider-item">
@@ -234,7 +235,7 @@
                         <div class="one-half last">
                             <img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/featured-img-02.png" class="img-align-left" alt="" />
                             <h3>Browser Compatibility</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                            <p>Lorum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                             <div class="readmore">
                                 <a href="#">Read More</a>
                             </div>

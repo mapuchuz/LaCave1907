@@ -8,6 +8,9 @@
  * View block calendar.
  */
 function spider_calendar_block_show($cal_id, $cal_theme, $block_id) {
+    
+//    print_r( $cal_theme ) ; die("fini"); 
+    
   require_once "spider_calendar_view.inc";
   drupal_add_js(drupal_get_path('module', 'spider_calendar') . '/js/spider_calendar_events_cloud.js');
   if (arg(0) == 'node' && is_numeric(arg(1))) {
@@ -17,7 +20,7 @@ function spider_calendar_block_show($cal_id, $cal_theme, $block_id) {
   drupal_add_js(drupal_get_path('module', 'spider_calendar') . '/js/spider_calendar_block.js');
   // $url = url('spider_calendar_block', array('absolute' => TRUE));
   $url = url(current_path(), array('absolute' => TRUE));
-  $theme = db_query("SELECT * FROM {spider_calendar_block_theme_table} WHERE id=:id", array(':id' => $cal_theme))->fetchObject();
+  $theme = db_query("SELECT * FROM {spider_calendar_block_theme_table} WHERE id=:id", array(':id' => 12/*$cal_theme*/))->fetchObject();
   $cal_width = $theme->theme_width;
   $weekstart = $theme->week_start_day;
   $border_color = '#' . $theme->border_color;
@@ -31,7 +34,7 @@ function spider_calendar_block_show($cal_id, $cal_theme, $block_id) {
   $text_color_this_month_unevented = '#' . $theme->cell_text_color_wevents;
   $evented_color = '#' . $theme->cell_text_color_events;
   $cell_text_color_selected_events = '#' . $theme->cell_text_color_selected_events;
-  $evented_color_bg = '#' . $theme->cell_bgcolor_events;
+  $evented_color_bg = '#' . 'dddddd'; //$theme->cell_bgcolor_events;
   $cell_bgcolor_selected_events = '#' . $theme->cell_bgcolor_selected_events;
   $event_title_color = '#' . $theme->event_title_color;
   $current_day_border_color = '#' . $theme->cur_day_cell_border_color;
@@ -42,7 +45,7 @@ function spider_calendar_block_show($cal_id, $cal_theme, $block_id) {
   $sundays_font_size = $theme->sundays_fcolor;
   $weekdays_font_size = $theme->days_fsize;
   $top_height = $theme->header_heidht;
-  $bg_top = '#' . $theme->header_bgcolor;
+  $bg_top = '#' . 'eeffee'; //$theme->header_bgcolor;
   $year_font_size = $theme->year_font_size;
   $text_color_year = '#' . $theme->year_color;
   $color_arrow_year = '#' . $theme->year_arrow_color;

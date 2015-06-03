@@ -1,0 +1,11 @@
+<!-- INSERE VINCENT MAI30  -->                                
+                                <!-- VINCENT-slide -->
+                                <li class="slider-item">
+                                    <div class="slider-image">                        
+                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/pt-img2.jpg" alt="" /></a>
+                                    </div>                        
+                                    <div class="flex-caption">
+                                        <h3>“AFFICAHE DE pt-img2 => OK/FAIL” (test pt-img2)</h3>
+                                    </div>
+                                </li>
+<!--finde: INSERE VINCENT MAI30  -->                                
