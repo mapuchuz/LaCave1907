@@ -5,6 +5,5 @@ sites/*/settings*.php
 sites/*/files/pictures
 sites/*/files/styles
 sites/*/private
-docs_in/*
 docs_out/*
 /nbproject/private/

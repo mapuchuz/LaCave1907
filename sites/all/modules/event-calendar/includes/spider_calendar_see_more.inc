@@ -14,7 +14,7 @@ function spider_calendar_see_more() {
     $theme_id = $_GET['cal_theme_id'];
     $theme = db_query("SELECT * FROM {spider_calendar_theme_table} WHERE id=:id", array(':id' => $theme_id))->fetchObject();
     $title_color = '#' . $theme->event_title_color_popup;
-    $title_size = $theme->event_title_fsize_popup;
+    $title_size = '96'; //$theme->event_title_fsize_popup;
     $title_font = $theme->event_title_family_popup;
     $title_style = $theme->event_title_fstyle_popup;
     $date_color = '#' . $theme->date_color_popup;
