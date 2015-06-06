@@ -51,11 +51,12 @@
         <?php // We hide the comments and links now so that we can render them later.
         hide($content['comments']);
         hide($content['links']);
-        print render($content); ?>
-        </div>
-
+        print render($content); 
+                
+        ?>
+ 
         <?php print render($content['links']); ?>
-    
+   
     </div>
 
     <?php $node_author = user_load($uid); ?>

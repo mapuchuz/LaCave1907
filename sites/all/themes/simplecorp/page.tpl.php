@@ -139,10 +139,10 @@
                                 <!-- first-slide -->
                                 <li class="slider-item">
                                     <div class="slider-image">
-                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img1.jpg" alt="" /></a>
+                                        <a href="<?php print base_path();?>"><img src="<?php print base_path() . drupal_get_path('theme', 'simplecorp') ;?>/images/sampleimages/img2.jpg" alt="" /></a>
                                     </div>
                                     <div class="flex-caption">
-                                        <h3>« Boire peu pour boire longtemps. » (Guy Bedos)</h3>
+                                        <h3>Le vin est le breuvage le plus sain et le plus hygiénique qui soit. (Louis PASTEUR)</h3>
                                     </div>
                                 </li>
                                 
@@ -277,6 +277,7 @@
                 <?php endif; ?>  
 
             </div>
+
             <!-- EOF: #featured -->
             
             <!--#main-content -->
@@ -292,7 +293,7 @@
                     <!--EOF:.sidebar first-->
                 <?php endif; ?>
 
-
+ 
                 <?php if ($page['sidebar_first'] && $page['sidebar_second']) { ?>
                 <div class="one-half">
                 <?php } elseif ($page['sidebar_first']) { ?>
@@ -306,13 +307,17 @@
                     <div id="main-content-inside">
                     <?php print render($title_prefix); ?>
                     <?php if ($title): ?><h1><?php print $title; ?></h1><?php endif; ?>
+                    
                     <?php print render($title_suffix); ?>
                     <?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
                     <?php print render($page['help']); ?>
                     <?php if ($action_links): ?><ul class="action-links"><?php print render($action_links); ?></ul><?php endif; ?>
-                    <?php print render($page['content']); ?>
+ 
+                   <?php print render($page['content']); ?>
+
                     </div>
                     <!--EOF:#main-content-inside-->
+
                 </div>
 
 
