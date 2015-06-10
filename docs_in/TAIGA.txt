@@ -1,0 +1,15 @@
+
+LaCave1907Task details
+#12 référencement
+faire le référencement naturel du site.
+titre, crumbs, ...
+
+LES URLs:
+=========
+1. charger module pathauto: ``` drush en pathauto ```
+2. config pathauto (voir LaCave1907/docs_in/..dans les images)
+3. contenu > mettre a jour les options > Update Url Alias > cliquer METTRE A JOUR
+	faire ceci pour chaque page de contenu.
+	
+======================================================================================================================
+	
