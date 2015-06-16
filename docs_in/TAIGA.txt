@@ -12,4 +12,17 @@ LES URLs:
 	faire ceci pour chaque page de contenu.
 	
 ======================================================================================================================
+Epicerie et autres:
+ajout taxonomie 
+	epicerie/sel,poivre,moutarde,huile,vinaigre	
+	alcools/rhum, cognac, armagnac
+	
+	drush vget ctei ctev field-info pml pmi 
+ne-export ne-import 
+views-analyse (va)
+views-list (vl)
+feedlist
+libraries-list
+
+============================================================================
 	
