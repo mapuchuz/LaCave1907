@@ -6,4 +6,5 @@ sites/*/files/pictures
 sites/*/files/styles
 sites/*/private
 docs_out/*
+docs_in/*
 /nbproject/private/
