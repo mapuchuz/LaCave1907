@@ -1342,11 +1342,14 @@ ul.primary li a:hover { background-color: #eee; border-color: #ccc; border-botto
     margin-right: auto;
   /*  border: 8px solid #0000FF;*/
  }
-.entry-body > .content { /*border: 2px solid #00FF00;*/}
-.views-row  {border: 1px solid #aaaaaa;}
+.entry-body > .content { /*border: 2px solid #00FF00;*/ font-size: 140%; }
+.views-row  {border: 3px solid #aaaaaa;}
+
 .views-row > .views-field-title {
     text-align: center;
     font-size: 140%;
+	font-weight: bold;
+	
  /*   border: 4px solid blue;*/
 }
 .views-row > .views-field-body  {
